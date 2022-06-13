@@ -5,7 +5,7 @@ from telebot import types
 name    = ""
 surname = ""
 age     = 0
-bot = telebot.TeleBot("2042132749:AAFNXtB5YBQuMdMZu9vqMQfjAJIghRnZTCI")
+bot = telebot.TeleBot("your_key")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
